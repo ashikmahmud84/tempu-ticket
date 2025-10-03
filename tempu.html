@@ -9,9 +9,15 @@
     <header>
         <nav>
             <ul>
-                <li>Admin</li>
-                <li>Cancel Tickets</li>
-                <li>Offers</li>
+                <a href="">
+                    <li>Admin</li>
+                </a>
+                <a href="">
+                    <li>Cancel Tickets</li>
+                </a>
+                <a href="">
+                    <li>Offers</li>
+                </a>
                 
             </ul>
             <button>Sign-Up</button>
@@ -19,7 +25,44 @@
         </nav>
     </header>
     <main>
+        <section>
+            <h3>Online Ticketing made easy!</h3>
+            <h4>Buy tickets online hassle-free.</h4>
 
+        </section>
+        <section>
+           <select name="leaving_from">
+                        <option value="">From</option>
+                     <option value="dhaka">Dhaka</option>
+                    <option value="chittagong">Chittagong</option>
+                    <option value="mymensingh">mymensingh</option>
+                    <option value="kishoreganj">kishoreganj</option>
+                    <option value="jamalpur">jamalpur</option>
+
+</select>
+
+        <select name="Going-to">
+  <option value="">Going</option>
+  <option value="mymensingh">mymensingh</option>
+  <option value="jamalpur">jamalpur</option>
+  <option value="kishoreganj">kishoreganj</option>
+  <option value="dhaka">Dhaka</option>
+  <option value="chittagong">Chittagong</option>
+</select>
+
+    <input type="date" name="departing_on">
+    
+
+    <label for="coach">Coach Type</label>
+<select id="coach" name="coach_type">
+  <option value="all">All</option>
+  <option value="ac">AC</option>
+  <option value="non-ac">Non-AC</option>
+  <option value="sleeper">Sleeper</option>
+</select>
+
+<button type="submit">SEARCH</button>
+        </section>
     </main>
     <footer>
 
